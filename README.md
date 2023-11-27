@@ -9,3 +9,5 @@ Technologies:
 - PyTest
 - Selenium 4
 .... this list and file will be updated .... soon
+
+To install all same libraries run in terminal "python -m pip install -r requirements.txt"
