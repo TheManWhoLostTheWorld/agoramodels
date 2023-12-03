@@ -110,14 +110,15 @@ def test_youtube_link_footer():
 
 # there is an issue. Need to solve it
 
-    button_accept_cookies = driver.find_element(By.XPATH, '//*[@id="yDmH0d"]/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/form[2]/div/div/button/div[3]')
-    ActionChains(driver)\
-         .scroll_to_element(button_accept_cookies)\
-         .perform()
-
-    button_accept_cookies.click()
-
-    time.sleep(3)
+    # button_accept_cookies = driver.find_element(By.XPATH, '//*[@id="yDmH0d"]/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/form[2]/div/div/button/div[3]')
+    # ActionChains(driver)\
+    #      .scroll_to_element(button_accept_cookies)\
+    #      .perform()
+    #
+    # button_accept_cookies.click()
+    #
+    # time.sleep(3)
+    #SOLVED
 
     assert driver.current_url == "https://www.youtube.com/AgoraModels"
 
