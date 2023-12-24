@@ -15,9 +15,25 @@ FACEBOOK_LOAD = (By.XPATH, '//div[@role="banner"]')
 YOUTUBE_LOAD = (By.XPATH, "//a[@id='logo']")
 INSTAGRAM_LOAD = (By.XPATH, "//div[@class='_aagx']")
 
-# Website
-MAIN_PAGE = "https://www.agoramodels.com/"
+# Social Networks Websites
+MAIN_PAGE = "https://www.agoramodels.com/de/"
 TWITTER_PAGE = "https://twitter.com/AgoraModels"
 FACEBOOK_PAGE = "https://www.facebook.com/AgoraModelsDE"
 YOUTUBE_PAGE = "https://www.youtube.com/AgoraModels"
 INSTAGRAM_PAGE = "https://www.instagram.com/agoramodels/"
+
+# Main Menu Locators
+MODEL_TALK_PAGE = "https://www.agoramodels.com/de/model-talk/"
+EXPERTS_PAGE = "https://www.agoramodels.com/de/experts/"
+DOWNLOAD_PAGE = "https://www.agoramodels.com/de/download-center/"
+MY_ACCOUNT_PAGE = "https://www.agoramodels.com/de/portal-sso/"
+FORUM_PAGE = "https://community.agoramodels.com/"
+SUPPORT_PAGE = "https://support.agoramodels.com/hc/de"
+
+# Main Menu Pages
+MODEL_TALK_BUTTON = (By.XPATH, "//a[contains(text(),'Model-Talk')]")
+EXPERTS_BUTTON = (By.XPATH, "//a[contains(text(),'Expertenverzeichnis')]")
+DOWNLOAD_BUTTON = (By.XPATH, "//a[contains(text(),'Download-Center')]")
+MY_ACCOUNT_BUTTON = (By.XPATH, "//a[contains(text(),'Mein Könto')]")
+FORUM_BUTTON = (By.XPATH, "//a[contains(text(),'Modellbauforum')]")
+SUPPORT_BUTTON = (By.XPATH, "//a[contains(text(),'Unterstützung')]")
