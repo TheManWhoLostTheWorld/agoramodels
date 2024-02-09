@@ -1,5 +1,12 @@
 from selenium.webdriver.support import expected_conditions as EC
-from locators import MODEL_TALK_PAGE, MODEL_TALK_BUTTON, EXPERTS_PAGE, EXPERTS_BUTTON, DOWNLOAD_PAGE, DOWNLOAD_BUTTON, MY_ACCOUNT_BUTTON, MY_ACCOUNT_PAGE, FORUM_PAGE, FORUM_BUTTON, SUPPORT_PAGE, SUPPORT_BUTTON
+from locators import MAIN_PAGE_BUTTON, MAIN_PAGE, MODEL_TALK_PAGE, MODEL_TALK_BUTTON, EXPERTS_PAGE, EXPERTS_BUTTON, DOWNLOAD_PAGE, DOWNLOAD_BUTTON, MY_ACCOUNT_BUTTON, MY_ACCOUNT_PAGE, FORUM_PAGE, FORUM_BUTTON, SUPPORT_PAGE, SUPPORT_BUTTON
+
+
+def test_start_page(driver, open_website, wait):
+    start_page = wait.until(EC.element_to_be_clickable(MAIN_PAGE_BUTTON))
+    start_page.click()
+
+    assert driver.current_url == MAIN_PAGE
 
 
 def test_model_talk(driver, open_website, wait):
