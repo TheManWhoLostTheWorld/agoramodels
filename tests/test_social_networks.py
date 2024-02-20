@@ -9,32 +9,6 @@ import time
 from locators import TWITTER_BUTTON_HEADER, MAIN_PAGE, TWITTER_PAGE, FACEBOOK_BUTTON_HEADER, FACEBOOK_PAGE, YOUTUBE_BUTTON_HEADER, YOUTUBE_ACCEPT_BUTTON, YOUTUBE_PAGE, INSTAGRAM_BUTTON_HEADER, INSTAGRAM_PAGE, TWITTER_BUTTON_FOOTER, FACEBOOK_BUTTON_FOOTER, YOUTUBE_BUTTON_FOOTER, INSTAGRAM_BUTTON_FOOTER, TWITTER_LOAD, FACEBOOK_LOAD, YOUTUBE_LOAD, INSTAGRAM_LOAD
 
 
-# @pytest.fixture
-# def chrome_options():
-#     options = Options()
-#     options.add_argument('--window-size=1024, 820')
-#     return options
-#
-#
-# @pytest.fixture
-# def driver(chrome_options):
-#     driver = webdriver.Chrome(options=chrome_options)
-#     yield driver
-#     driver.quit()
-#
-#
-# @pytest.fixture
-# def open_website(driver):
-#     link = driver.get(MAIN_PAGE)
-#     return link
-#
-#
-# @pytest.fixture
-# def wait(driver):
-#     wait = WebDriverWait(driver, timeout=10)
-#     return wait
-
-
 def test_twitter_link_header(driver, open_website, wait):
 
     twitter = wait.until(EC.element_to_be_clickable(TWITTER_BUTTON_HEADER))

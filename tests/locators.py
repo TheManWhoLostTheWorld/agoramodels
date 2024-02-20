@@ -38,26 +38,49 @@ DOWNLOAD_BUTTON = (By.XPATH, "//a[contains(text(),'Download-Center')]")
 MY_ACCOUNT_BUTTON = (By.XPATH, "//a[contains(text(),'Mein Könto')]")
 FORUM_BUTTON = (By.XPATH, "//a[contains(text(),'Modellbauforum')]")
 SUPPORT_BUTTON = (By.XPATH, "//a[contains(text(),'Unterstützung')]")
+MODELS = (By.XPATH, "//a[contains(text(),'Modelle')]")
 
 # Types of models
 ALL_MODELS = (By.XPATH, "//a[contains(text(),'Alle')]")
 CARS_MODELS = (By.XPATH, "//a[contains(text(),'Fahrzeuge')]")
 MILITARY_MODELS = (By.XPATH, "//a[contains(text(),'Militärisch')]")
 MODELS_007 = (By.XPATH, "//a[contains(text(),'007')]")
-IMAGE_LOTUS = "https://www.agoramodels.com/site/assets/files/15177/ger.174x0.png"
-IMAGE_007_ASTON = "	https://www.agoramodels.com/site/assets/files/14603/ger-1.174x0.png"
-IMAGE_CORVETTE = "https://www.agoramodels.com/site/assets/files/14605/ger.174x0.png"
-IMAGE_COBRA = "https://www.agoramodels.com/site/assets/files/14607/ger.174x0.png"
-IMAGE_LAFERRARI = "https://www.agoramodels.com/site/assets/files/14604/ger.174x0.jpg"
-IMAGE_300SL = "https://www.agoramodels.com/site/assets/files/14608/mercedes_300_german.174x0.jpg"
-IMAGE_W196R = "https://www.agoramodels.com/site/assets/files/14609/ger.174x0.png"
-IMAGE_ETYPE = "https://www.agoramodels.com/site/assets/files/14610/jaguar_german.174x0.jpg"
-IMAGE_917KH = "https://www.agoramodels.com/site/assets/files/14612/ger.174x0.png"
-IMAGE_FIRETRUCK = "https://www.agoramodels.com/site/assets/files/14613/fdny_german.174x0.jpg"
-IMAGE_SUPERSNAKE = "https://www.agoramodels.com/site/assets/files/14614/super_snake_german.174x0.jpg"
-IMAGE_GTCOLLECT = "https://www.agoramodels.com/site/assets/files/14624/ferrari_gt.174x0.jpg"
-IMAGE_OPTIMUS = "https://www.agoramodels.com/site/assets/files/14606/optimus_prime_78cm.174x0.png"
-IMAGE_LEOPARD = "https://www.agoramodels.com/site/assets/files/14615/leopard_german.174x0.jpg"
-IMAGE_007 = "https://www.agoramodels.com/site/assets/files/14617/007.174x0.jpg"
-IMAGE_BOX = "https://www.agoramodels.com/site/assets/files/14625/case_1.174x0.jpg"
-IMAGE_TIRES = "https://www.agoramodels.com/site/assets/files/15414/wheel_stack.174x0.jpg"
+LOTUS_LINK = "https://www.agoramodels.com/de/wet-nellie/"
+ASTON_007_LINK = "https://www.agoramodels.com/de/007_db5/"
+CORVETTE_LINK = "https://www.agoramodels.com/de/1963-corvette-sting-ray/"
+COBRA_LINK = "https://www.agoramodels.com/de/shelby-cobra/"
+LAFERRARI_LINK = "https://www.agoramodels.com/de/laferrari/"
+MERC_300SL_LINK = "https://www.agoramodels.com/de/mercedes300sl/"
+W196R_LINK = "https://www.agoramodels.com/de/1955-mercedes-w196/"
+ETYPE_LINK = "https://www.agoramodels.com/de/jaguar/"
+POR_917KH_LINK = "https://www.agoramodels.com/de/porsche-917/"
+FIRETRUCK_LINK = "https://www.agoramodels.com/de/fdny/"
+SUPERSNAKE_LINK = "https://www.agoramodels.com/de/1967-shelby-mustang-super-snake/"
+GTCOLLECT_LINK = "https://www.agoramodels.com/de/ferrarigt-1/"
+OPTIMUS_LINK = "https://www.agoramodels.com/de/optimus-prime/"
+LEOPARD_LINK = "https://www.agoramodels.com/de/leopard/"
+LINK_007 = "https://www.agoramodels.com/de/007/"
+BOX_LINK = "https://www.agoramodels.com/de/display-cases/"
+TIRES_LINK = "https://www.agoramodels.com/de/speedway-tires/"
+LIST_OF_ALL_MODELS = ["Esprit - Der Spion, der mich liebte", "DB5 - Keine Zeit zu sterben", "1963 Corvette Sting Ray", "Optimus Prime", "1965 Shelby Cobra 427 SC", "Porsche 917KH", "LaFerrari", "Mercedes 300SL Gullwing", "Mercedes W196R", "Jaguar E-Type", "FDNY Fire Truck", "1967 Shelby Mustang Super Snake", "Leopard 2A6", "007", "Ferrari GT-Kollektion", "Vitrinen", "Shelby Mustang Wheel Set"]
+IMAGE_LOTUS = (By.XPATH, "(//img[@src='/site/assets/files/15177/ger.174x0.png'])[1]")
+IMAGE_007_ASTON = (By.XPATH, "(//img[@src='/site/assets/files/14603/ger-1.174x0.png'])[1]")
+IMAGE_CORVETTE = (By.XPATH, "(//img[@src='/site/assets/files/14605/ger.174x0.png'])[1]")
+IMAGE_COBRA = (By.XPATH, "(//img[@src='/site/assets/files/14607/ger.174x0.png'])[1]")
+IMAGE_LAFERRARI = (By.XPATH, "(//img[@src='/site/assets/files/14604/ger.174x0.jpg'])[1]")
+IMAGE_300SL = (By.XPATH, "(//img[@src='/site/assets/files/14608/mercedes_300_german.174x0.jpg'])[1]")
+IMAGE_W196R = (By.XPATH, "(//img[@src='/site/assets/files/14609/ger.174x0.png'])[1]")
+IMAGE_ETYPE = (By.XPATH, "(//img[@src='/site/assets/files/14610/jaguar_german.174x0.jpg'])[1]")
+IMAGE_917KH = (By.XPATH, "(//img[@src='/site/assets/files/14612/ger.174x0.png'])[1]")
+IMAGE_FIRETRUCK = (By.XPATH, "(//img[@src='/site/assets/files/14613/fdny_german.174x0.jpg'])[1]")
+IMAGE_SUPERSNAKE = (By.XPATH, "(//img[@src='/site/assets/files/14614/super_snake_german.174x0.jpg'])[1]")
+IMAGE_GTCOLLECT = (By.XPATH, "(//img[@src='/site/assets/files/14624/ferrari_gt.174x0.jpg'])[1]")
+IMAGE_OPTIMUS = (By.XPATH, "(//img[@src='/site/assets/files/14606/optimus_prime_78cm.174x0.png'])[1]")
+IMAGE_LEOPARD = (By.XPATH, "(//img[@src='/site/assets/files/14615/leopard_german.174x0.jpg'])[1]")
+IMAGE_007 = (By.XPATH, "(//img[@src='/site/assets/files/14617/007.174x0.jpg'])[1]")
+IMAGE_BOX = (By.XPATH, "(//img[@src='/site/assets/files/14625/case_1.174x0.jpg'])[1]")
+IMAGE_TIRES = (By.XPATH, "(//img[@src='/site/assets/files/15414/wheel_stack.174x0.jpg'])[1]")
+
+SLIDER_BUTTON_2 = (By.XPATH, "(//button[@class='owl-dot'])[1]")
+SLIDER_BUTTON_3 = (By.XPATH, "(//button[@class='owl-dot'])[2]")
+SLIDER_BUTTON_4 = (By.XPATH, "(//button[@class='owl-dot'])[3]")
