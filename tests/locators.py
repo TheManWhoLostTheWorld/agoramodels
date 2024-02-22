@@ -40,7 +40,7 @@ FORUM_BUTTON = (By.XPATH, "//a[contains(text(),'Modellbauforum')]")
 SUPPORT_BUTTON = (By.XPATH, "//a[contains(text(),'Unterstützung')]")
 MODELS = (By.XPATH, "//a[contains(text(),'Modelle')]")
 
-# Types of models
+# Types of models (all)
 ALL_MODELS = (By.XPATH, "//a[contains(text(),'Alle')]")
 CARS_MODELS = (By.XPATH, "//a[contains(text(),'Fahrzeuge')]")
 MILITARY_MODELS = (By.XPATH, "//a[contains(text(),'Militärisch')]")
@@ -78,6 +78,24 @@ IMAGE_GTCOLLECT = (By.XPATH, "(//img[@src='/site/assets/files/14624/ferrari_gt.1
 IMAGE_OPTIMUS = (By.XPATH, "(//img[@src='/site/assets/files/14606/optimus_prime_78cm.174x0.png'])[1]")
 IMAGE_LEOPARD = (By.XPATH, "(//img[@src='/site/assets/files/14615/leopard_german.174x0.jpg'])[1]")
 IMAGE_007 = (By.XPATH, "(//img[@src='/site/assets/files/14617/007.174x0.jpg'])[1]")
+IMAGE_BOX = (By.XPATH, "(//img[@src='/site/assets/files/14625/case_1.174x0.jpg'])[1]")
+IMAGE_TIRES = (By.XPATH, "(//img[@src='/site/assets/files/15414/wheel_stack.174x0.jpg'])[1]")
+
+# Types of models (auto)
+IMAGE_LOTUS_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/15177/ger.174x0.png'])[2]")
+IMAGE_007_ASTON_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14603/ger-1.174x0.png'])[2]")
+IMAGE_CORVETTE_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14605/ger.174x0.png'])[2]")
+IMAGE_COBRA_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14607/ger.174x0.png'])[2]")
+IMAGE_LAFERRARI_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14604/ger.174x0.jpg'])[2]")
+IMAGE_300SL_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14608/mercedes_300_german.174x0.jpg'])[2]")
+IMAGE_W196R_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14609/ger.174x0.png'])[2]")
+IMAGE_ETYPE_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14610/jaguar_german.174x0.jpg'])[2]")
+IMAGE_917KH_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14612/ger.174x0.png'])[2]")
+IMAGE_FIRETRUCK_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14613/fdny_german.174x0.jpg'])[2]")
+IMAGE_SUPERSNAKE_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14614/super_snake_german.174x0.jpg'])[2]")
+IMAGE_GTCOLLECT_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14624/ferrari_gt.174x0.jpg'])[2]")
+
+
 IMAGE_BOX = (By.XPATH, "(//img[@src='/site/assets/files/14625/case_1.174x0.jpg'])[1]")
 IMAGE_TIRES = (By.XPATH, "(//img[@src='/site/assets/files/15414/wheel_stack.174x0.jpg'])[1]")
 
