@@ -95,9 +95,13 @@ IMAGE_FIRETRUCK_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14613/fdny_ge
 IMAGE_SUPERSNAKE_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14614/super_snake_german.174x0.jpg'])[2]")
 IMAGE_GTCOLLECT_AUTO = (By.XPATH, "(//img[@src='/site/assets/files/14624/ferrari_gt.174x0.jpg'])[2]")
 
+# Types of models military
+IMAGE_LEOPARD_MILITARY = (By.XPATH, "(//img[@src='/site/assets/files/14615/leopard_german.174x0.jpg'])[2]")
 
-IMAGE_BOX = (By.XPATH, "(//img[@src='/site/assets/files/14625/case_1.174x0.jpg'])[1]")
-IMAGE_TIRES = (By.XPATH, "(//img[@src='/site/assets/files/15414/wheel_stack.174x0.jpg'])[1]")
+# Types of models 007
+IMAGE_007_007 = (By.XPATH, "(//img[@src='/site/assets/files/14617/007.174x0.jpg'])[3]")
+IMAGE_LOTUS_007 = (By.XPATH, "(//img[@src='/site/assets/files/15177/ger.174x0.png'])[3]")
+IMAGE_007_ASTON_007 = (By.XPATH, "(//img[@src='/site/assets/files/14603/ger-1.174x0.png'])[3]")
 
 SLIDER_BUTTON_2 = (By.XPATH, "(//button[@class='owl-dot'])[1]")
 SLIDER_BUTTON_3 = (By.XPATH, "(//button[@class='owl-dot'])[2]")
